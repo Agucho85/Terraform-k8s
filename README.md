@@ -51,7 +51,7 @@ E) Define `iam.auto.tfvars` here you can match the eks-admin for the cluster. AD
     terraform init  >> Wil download all needed modules to create all resources.
     terraform validate  >> Perform a sintaxis check for HCL 
     terraform plan --out example_plan  >> Perform a plan that will be executed
-        **If you have issues and the tfstate got lock please, confirm no one is working on the cluster and perform:
+        **If you have issues and the tfstate got lockplease, confirm no one is working on the cluster and perform:
           terraform force-unlock <some-hash-abc-123> (this cames in error mistake)**
     terraform apply example_plan (this command has the auto-approve implicit)
 
